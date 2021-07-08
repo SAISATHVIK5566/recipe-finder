@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Axios from "axios";
 //import CSS file
-import "./recipeContent.css";
+import "./recipeContent.css"
 
 class RecipeContent extends Component{
         constructor(props){
@@ -76,14 +76,15 @@ class RecipeContent extends Component{
                               src={meal[0].strMealThumb}
                               alt={"Your meal for " + meal[0].strMeal}
                             />
-                            <div className="textData">
+                            <div className="textInfo">
                               <p>
                                 <em>Category of Meal:</em> {meal[0].strCategory}{" "}
                               </p>
                               <p>
                                 <em>Area of the Meal:</em> {meal[0].strArea}{" "}
                               </p>
-                              <h3>Ingredients:</h3>
+                              <h3>
+                                      Ingredients<style></style></h3>
                               <ul className="ingredients">{list}</ul>
                               <h3>Recipes</h3>
                               <div className="recipes">{meal[0].strInstructions}</div>
