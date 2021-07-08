@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import "./header.css";
+import RecipeContent from "./recipeContent";
 
 class Header extends Component{
         constructor(props){

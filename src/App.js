@@ -1,11 +1,11 @@
 import './App.css';
+import  "./App.css";
+import Header from './header';
 
 function App() {
   return (
     <div>
-      <p>
-        Hello this is blank
-      </p>
+      <Header/>
     </div>
   );
 }
