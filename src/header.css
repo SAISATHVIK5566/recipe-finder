@@ -10,7 +10,7 @@
 
 .heading {
         font-size: 3rem;
-        color: #222;
+        color: #6b526b;
 }
 
 .input-form {
@@ -21,9 +21,9 @@
 .input-form input[type="text"] {
         padding: 8px 20px;
         background-color: transparent;
-        border: 1.5px solid rgb(126, 51, 170);
+        border: 1.5px solid rgb(121, 56, 182);
         border-radius: 10px;
-        color: #333;
+        color: black;
         width: 300px;
         font-size: 1.2rem;
         top: 3px;

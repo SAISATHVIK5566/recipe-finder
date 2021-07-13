@@ -1,7 +1,11 @@
 import React, {Component} from "react";
 import Axios from "axios";
 //import CSS file
-import "./recipeContent.css"
+import "./recipeContent.css";
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
+import Favorite from '@material-ui/icons/Favorite';
+import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 
 class RecipeContent extends Component{
         constructor(props){
@@ -70,6 +74,10 @@ class RecipeContent extends Component{
                         <div className="recipeContainer">
                           <div className="title">
                             <h1>{meal[0].strMeal}</h1>
+                            <FormControlLabel
+        control={<Checkbox icon={<FavoriteBorder />} 
+                  checkedIcon={<Favorite />}
+          name="checkedH" />}/>
                           </div>
                           <div className="recipeData">
                             <img
